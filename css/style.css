@@ -1,0 +1,552 @@
+/* Estilizações gerais */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Circular, system-ui, -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #222222;
+}
+
+h1 {
+    font-size: 26px;
+    font-weight: inherit;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+li {
+    font-size: 16px;
+    font-weight: 400;
+    list-style: none;
+}
+
+.margem {
+    margin: 0 13.9rem;
+}
+
+.metade-esquerda {
+    width: 58%;
+}
+
+.metade-direita {
+    width: 33%;
+}
+
+.flex {
+    display: flex;
+}
+
+.alinhar {
+    align-items: center;
+}
+
+.espaco {
+    justify-content: space-between;
+}
+
+.coluna {
+    flex-direction: column;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+/* Nav */
+#logo {
+    width: 102px;
+    height: 32px;
+}
+
+
+nav {
+    padding: 1rem 0;
+}
+
+
+.nav-botao {
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 50px;
+    background-color: white;
+    padding: 9px;
+}
+
+.divisao-botao {
+    border: 0px;
+    border-right: 1px solid #b8b8b8;
+    padding: 2px 15px;
+    background-color: white;
+}
+
+#hospedes {
+    border: none;
+    padding-left: 15px;
+    color: #717171;
+    background-color: white;
+}
+
+#busca {
+    background-color: #ff385c;
+    padding: 9px;
+    border-radius: 20px;
+    margin-left: 15px;
+    color:  white!important; 
+}
+
+#pesquisa {
+    margin-left: 15rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 6px;
+}
+
+.nav-icones {
+    width: 16px;
+    height: 16px;
+    margin-left: 4px;
+}
+
+#margem-icones {
+    margin-right: 25px;
+    margin-left: 15px;
+}
+
+#perfil {
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+}
+
+/* Zona Nobre ~> título + imagens */
+/* Título */
+.icones-titulo {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+#titulo {
+    margin-top: 1.5rem;
+    align-items: end;
+}
+
+.botoes {
+    align-items: center;
+    background-color: white;
+    border: none;
+    margin-left: 20px;
+}
+
+.botoes a {
+    color: black;
+}
+
+/* Imagens */
+#imagens {
+    margin-top: 2rem;
+    border: 0;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+#imagem1 {
+    width: 560px;
+    height: 401.6px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    object-fit: cover;
+}
+
+.imagens-cima {
+    width: 272px;
+    height: 200.8px;
+    margin: 0 0 8px 8px;
+    object-fit: cover;
+}
+
+.imagens-baixo {
+    width: 272px;
+    height: 192.8px;
+    margin: 0 0 8px 8px;
+    object-fit: cover;
+}
+
+#imagem4 {
+    border-top-right-radius: 15px;
+}
+
+#imagem5 {
+    border-bottom-right-radius: 15px;
+}
+
+/* Localização */
+#localizacao {
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+#localizacao li {
+    margin: 3px 10px 3px 0;
+}
+
+#localizacao a {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#localizacao svg {
+    margin-right: 5px;
+}
+
+/* Anfitrião */
+#anfitriao {
+    margin: 1.5rem auto;
+}
+
+#anfitriao li {
+    color: #717171;
+    font-weight: 400;
+    font-size: 14px;
+    margin-right: 0.8rem;
+    margin-top: 3px;
+}
+
+.foto-redonda {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+/* Descrição */
+#descricao{
+    margin: 2rem 0 3rem 0;
+}
+
+#descricao p {
+   font-size: 16px;
+}
+
+#descricao a {
+    font-size: 16px;
+    margin-right: 5px;
+    font-weight: 600;
+}
+
+#descricao h2 {
+    margin: 2rem 0 1.7rem 0;
+}
+
+#descricao img {
+    width: 320px;
+    height: 213px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.mostrar-mais{
+    margin: 1rem 0 3rem 0;
+    align-items: center;
+}
+
+/* Reservar */
+#reservar {
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 16px;
+    padding: 24px;
+    box-sizing: border-box;
+    max-width: 400px;
+    max-width: 500px;
+    margin-top: 21px;
+}
+
+#noite {
+    margin-left: 5px;
+}
+
+#reservar :first-child {
+    align-items: baseline;
+}
+
+#check-in {
+    margin-top: 20px;
+    border: 1px solid #717171;
+    border-radius: 7px;
+}
+
+.titulos-reservar {
+    font-family: inherit;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 600;
+    margin-bottom: 1px;
+}
+
+.datas {
+    padding: 10px;
+    width: 50%;
+}
+
+#checkout {
+    border-left: 1px solid #717171;
+}
+
+#hospede {
+    border-top: 1px solid #717171;
+    padding: 10px;
+}
+
+#reservar button {
+    background-color: #ff385c;
+    color: white;
+    font-size: 16px;
+    border: 0;
+    border-radius: 7px;
+    width: 100%;
+    height: 3.3rem;
+    margin: 15px auto;
+}
+
+#aviso {
+    justify-content: center;
+}
+
+.precos {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+#reservar hr {
+    margin-top: 20px;
+}
+
+/* Notificação embaixo da reserva */
+#preco {
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 12px;
+    padding: 24px;
+    margin-top: 2rem;
+}
+
+#preco p {
+    color: #717171;
+    margin-top: 3px;
+}
+
+#preco svg {
+    min-width: 32px;
+    min-height: 32px;
+    margin-right: 17px;
+}
+
+/* Benefícios */
+#beneficios {
+    margin: 2rem auto;
+
+}
+#beneficios p {
+    color: #717171;
+    margin-top: 5px;
+}
+
+#beneficios svg {
+    margin-right: 2rem;
+}
+
+.beneficio {
+    margin-bottom: 1rem;
+}
+
+/* O que o lugar oferece */
+#oferece {
+    flex-direction: column;
+    margin: 2rem auto;
+}
+
+#oferece li {
+    display: flex;
+    padding: 8px;
+}
+
+#oferece li :first-child {
+    margin-right: 1rem;
+}
+
+#oferece li svg {
+    min-width: 24px;
+    min-height: 24px;
+}
+
+#oferece ul {
+    margin: 1.7rem 1rem 2rem 0;
+}
+
+#oferece p {
+    font-size: 16px;
+    text-decoration: line-through;
+}
+
+#fumaca {
+    margin-top: 1.2rem;
+}
+
+#oferece button {
+    border: 1px solid #222222;
+    border-radius: 7px;
+    padding: 10px;
+    background-color: white;
+    max-width: 20rem;
+    font-size: 16px;
+    font-weight: 600;
+    color: #222222;
+}
+
+/* Notas */
+#notas {
+    margin: 3rem auto;
+}
+
+#notas-individuais {
+    margin: 1.5rem 3rem 0 3rem;
+    justify-content: space-between;
+}
+
+#notas-individuais :first-child {
+    flex-direction: column;
+}
+
+#notas-individuais svg {
+    margin-bottom: 5px;
+}
+
+.texto-grande {
+    font-size: 26px;
+    font-weight: 600;
+    margin-left: 7px;
+    margin-right: 10px;
+}
+
+.nota {
+    flex-direction: column;
+    border-left: 1px solid #717171;
+    padding-left: 2rem;
+}
+
+.nota-titulo {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.numero {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+#estrelas {
+    font-size: 12px;
+}
+
+.barra-avaliacao {
+    border-radius: 20px;
+    max-height: 12px;
+    background-color: #717171;
+}
+
+/* Avaliações */
+.avaliacao {
+    max-width: 28.5rem;
+    margin: 0 6rem;
+}
+
+.avaliacao p {
+    font-size: 16px;
+}
+
+.avaliacao li {
+    font-size: 14px;
+    margin: 10px 1rem 3px 0;
+}
+
+.data {
+    font-weight: 600;
+}
+
+#avaliacao {
+    margin: 3rem auto;
+    justify-content: center;
+}
+
+.claro {
+    color: #717171;
+}
+
+/* Regras */
+#regras {
+    margin: 2rem 0 0.8rem 0;
+}
+
+#regras h2 {
+    margin-bottom: 1rem;
+}
+
+#regras ul {
+    max-width: 300px;
+    align-items: baseline;
+}
+
+#regras li {
+    margin-bottom: 10px;
+}
+
+.li-titulo {
+    font-weight: 600;
+}
+
+#regras a {
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #f7f7f7;
+}
+
+footer ul {
+    margin: 48px 0;
+}
+
+footer li {
+    padding: 6px;
+}
+
+footer li :hover {
+    text-decoration: underline;
+}
+
+footer a {
+    text-decoration: none;
+    color: #222222;
+    font-weight: 400;
+}
+
+#footer {
+    margin-right: 25rem;
+}
