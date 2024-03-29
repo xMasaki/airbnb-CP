@@ -604,6 +604,12 @@ footer a {
   display: block;
 }
 
+#menu .show {
+    display: block;
+}
+#menu .hide {
+    display: none;
+}
 /* Favoritar */
 
 

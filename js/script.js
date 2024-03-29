@@ -4,13 +4,26 @@ document.addEventListener('DOMContentLoaded', () => {
   const menuButton = document.getElementById('menuButton');
   const menuItems = document.getElementById('menuItems');
 
+  // menuButton.addEventListener('click', () => {
+  //   if (menuItems.style.display === 'none') {
+  //     menuItems.style.display = 'block';
+  //   } else {
+  //     menuItems.style.display = 'none';
+  //   }
+  // });
+
   menuButton.addEventListener('click', () => {
-    if (menuItems.style.display === 'none') {
-      menuItems.style.display = 'block';
-    } else {
-      menuItems.style.display = 'none';
-    }
+    menuItems.classList.toggle("show");
+    menuItems.classList.toggle("hide");
   });
+
+// const botao_menu = document.querySelector('#menuButton')
+// const menu = document.querySelector('#menuTtems')
+
+// botao_menu.addEventListener("click", function(){
+//     menu.classList.toggle("block");
+//     menu.classList.toggle("none");
+// });
 });
 
 
